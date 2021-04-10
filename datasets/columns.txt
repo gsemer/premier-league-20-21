@@ -1,0 +1,28 @@
+# HT : Half Time (1, X, 2)
+# FT : Full Time (1, X, 2)
+# TG : Total Goals (0-1, 2-3, 4-6, 7+)
+# HG : Home team Goal
+# AG : Away team Goal
+# HS : Home team shoots
+# AS : Away team shoots
+# HP : Home team Possesion
+# AP : Away team Possesion
+# HST: Home team shoots on target
+# AST: Away team shoots on target
+# PH : Home team passes
+# PA : Away team passes
+#AOPH: Home team passing accuracy
+#AOPA: Away team passing accuracy
+# HF : Home team fouls
+# AF : Away team fouls
+# YCH: Home team yellow cards
+# YCA: Away team yellow cards
+# RCH: Home team red cards
+# RCA: Away team red cards
+# OH : Home team offsides
+# OA : Awat team offsides
+# CH : Home team corners
+# CA : Away team corners
+# For i in 1,...,11: HPi denotes the name of i-th player of home team
+# For i in 1,...,11: APi denotes the name of i-th player of away team 
+# Plays: Where the match takes place 

@@ -1,0 +1,23 @@
+# Find the total number of wins, draws and loses of a home team of your choice
+
+SELECT COUNT(*) FROM PremierLeague WHERE HomeTeam='' AND FT='1';
+SELECT COUNT(*) FROM PremierLeague WHERE HomeTeam='' AND FT='X';
+SELECT COUNT(*) FROM PremierLeague WHERE HomeTeam='' AND FT='2';
+
+# Find the total number of wins, draws and loses of a away team of your choice
+
+SELECT COUNT(*) FROM PremierLeague WHERE AwayTeam='' AND FT='2';
+SELECT COUNT(*) FROM PremierLeague WHERE AwayTeam='' AND FT='X';
+SELECT COUNT(*) FROM PremierLeague WHERE AwayTeam='' AND FT='1';
+
+# For a home team of your choice find the away teams based on the final result (full time)
+
+SELECT AwayTeam FROM PremierLeague WHERE HomeTeam='' AND FT='1';
+SELECT AwayTeam FROM PremierLeague WHERE HomeTeam='' AND FT='X';
+SELECT AwayTeam FROM PremierLeague WHERE HomeTeam='' AND FT='2';
+
+# For a away team of your choice find the home teams based on the final result (full time)
+
+SELECT HomeTeam FROM PremierLeague WHERE AwayTeam='' AND FT='1';
+SELECT HomeTeam FROM PremierLeague WHERE AwayTeam='' AND FT='X';
+SELECT HomeTeam FROM PremierLeague WHERE AwayTeam='' AND FT='2';
